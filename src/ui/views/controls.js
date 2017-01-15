@@ -1,0 +1,17 @@
+
+// some unused icons/actions
+//    {icon:'icon-user-add', action:'adduser'}
+//    {icon:'icon-pencil',   action:'renameconv'}
+//    {icon:'icon-videocam', action:'videocall'}
+//    {icon:'icon-phone',    action:'voicecall'}
+
+const onclickaction = a => ev => action(a);
+
+module.exports = view(function(models) {
+    const {conv, viewstate} = models;
+    const c = conv[viewstate.selectedConv];
+    return div({class:'controls'}, () =>
+        div({class:'button', title: i18n.__('conversation.add:Add new conversation')},
+            {onclick:onclickaction('addconversation')}, () => span({class:'material-icons'}, 'add'))
+    );
+});

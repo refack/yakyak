@@ -1,4 +1,125 @@
 {
-    "__MyLocaleLanguage__": "English",
-    "__maintaner__": "http://github.com/yakyak"
+	"__MyLocaleLanguage__": "English",
+	"__maintaner__": "http://github.com/yakyak",
+	"menu": {
+		"file": {
+			"title": "YakYak",
+			"hide": "Hide YakYak",
+			"inspector": "Open Inspector",
+			"logout": "Logout",
+			"quit": "Quit"
+		},
+		"edit": {
+			"title": "Edit",
+			"undo": "Undo",
+			"redo": "Redo",
+			"cut": "Cut",
+			"copy": "Copy",
+			"paste": "Paste",
+			"select_all": "Select All",
+			"language": "Language"
+		},
+		"view": {
+			"title": "View",
+			"conversation": {
+				"title": "Conversation List",
+				"thumbnails": {
+					"show": "Show Thumbnails",
+					"only": "Show Thumbnails Only",
+					"animated": "Show Animated Thumbnails"
+				},
+				"timestamp": "Show Conversation Timestamp",
+				"last": "Show Conversation Last Message",
+				"previous": "Previous Conversation",
+				"next": "Next Conversation",
+				"select": "Select Conversation"
+			},
+			"notification": {
+				"title": "Pop-Up Notification",
+				"show": "Show notifications",
+				"message": "Show message in notifications",
+				"username": "Show username in notifications",
+				"icon": "Show YakYak icon in notifications",
+				"mute": "Disable sound in notifications",
+				"custom_sound": "Use YakYak custom sound for notifications",
+				"toggle": "Toggle notifications"
+			},
+			"emoji": "Convert text to emoji",
+			"color_scheme": {
+				"title": "Color Scheme",
+				"default": "Original",
+				"blue": "Blue",
+				"dark": "Dark",
+				"material": "Material"
+			},
+			"font": {
+				"title": "Font Size",
+				"extra_small": "Extra Small",
+				"small": "Small",
+				"medium": "Medium",
+				"large": "Large",
+				"extra_large": "Extra Large"
+			},
+			"fullscreen": "Toggle Fullscreen",
+			"zoom": {
+				"in": "Zoom in",
+				"out": "Zoom out",
+				"reset": "Actual size"
+			},
+			"tray": {
+				"show_tray": "Show tray icon"
+			},
+			"escape": {
+				"title": "Escape key behavior",
+				"hide": "Hides window",
+				"clear": "Clears input",
+				"default": "default when tray is not showing"
+			}
+		},
+		"help": {
+			"title": "Help",
+			"about": {
+				"title": "About YakYak"
+			}
+		},
+		"title": "Menu"
+	},
+	"conversation": {
+		"numbered": "Conversation %d",
+		"add": "Add new conversation",
+		"title": {
+			"one": "Conversations",
+			"other": "Conversations"
+		},
+		"new": "New conversation",
+		"name": "Conversation name",
+		"search": "Search people",
+		"multiuser": "Create multiuser chat",
+		"options": "Conversation Options",
+		"settings": "Conversation settings"
+	},
+	"connection": {
+		"connecting": "Connecting"
+	},
+	"input": {
+		"message": "Message",
+		"emoticons": "Show emoticons",
+		"image": "Attach image"
+	},
+	"actions": {
+		"ok": "OK"
+	},
+	"notification": {
+		"one": "Notification",
+		"other": "Notification"
+	},
+	"favorite": {
+		"star_it": "Star / unstar",
+		"title": {
+			"one": "Favorite",
+			"other": "Favorite"
+		}
+	},
+	"settings": "Settings",
+	"details": "Details"
 }
